@@ -16,7 +16,7 @@ def hgnc_to_ensembl(hgnc_df, map_dict):
     """
     to_del = []
     for col in hgnc_df:
-        if(col not in map_dict):
+        if(col not in map_dict and col!='Unnamed: 0'):
             to_del.append(col)
 
     hgnc_df.drop(columns=to_del, inplace=True)

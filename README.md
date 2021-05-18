@@ -34,3 +34,5 @@ The core experiments for this project are found in 3 separate Jupyter notebooks,
 - `Autoencoders.ipynb`: Trains and evaluates various autoencoders and downstream classifiers, and writes the embeddings to the `.h5` files in `autoencoder_embeddings/` (used by downstream notebooks).
 - `CCLE_transfer.ipynb`: Trains and evaluates classifiers for IC50 prediction-based transfer experiments.
 - `Cell_perturbation.ipynb`: Loads and evaluates classifiers for gene perturbation-based transfer experiments.
+
+Trained versions of our best models are also available in `trained_models`.

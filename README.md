@@ -35,4 +35,6 @@ The core experiments for this project are found in 3 separate Jupyter notebooks,
 - `CCLE_transfer.ipynb`: Trains and evaluates classifiers for IC50 prediction-based transfer experiments.
 - `Cell_perturbation.ipynb`: Loads and evaluates classifiers for gene perturbation-based transfer experiments.
 
+The `requirements.txt` file for conda environments used to run each of these sets of experiments are found in `requirements/`.
+
 Trained versions of our best models are also available in `trained_models`.

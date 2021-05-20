@@ -1,7 +1,7 @@
 import os, sys, glob
 import numpy as np
 import pandas as pd
-from data import load_mmrf
+from utils.data import load_mmrf
 from sklearn.decomposition import PCA
 
 
